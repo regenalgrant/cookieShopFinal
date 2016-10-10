@@ -1,0 +1,352 @@
+* {
+  font-family: Arial;
+}
+body {
+    background-color: yellow;
+  max-width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-align: right;
+  text-decoration: none;
+}
+div {
+
+  margin: 2%;
+  padding: 1%;
+  border: 2px solid black;
+  width: 27%;
+  display: inline-block;
+
+}
+div h2 {
+
+  text-align: center;
+}
+header {
+  text-align: center;
+  position: relative;
+   border-radius: 10px 10px 10px;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+h4 {
+  font-style: arial;
+  font-size: 25px;
+  color: red;
+  margin-top: 0;
+  padding: 0;
+}
+ul {
+  font-size: 12ppx;
+  list-style: none;
+}
+li:last-of-type {
+  border-top: 3px solid black;
+}
+table {
+      background-color: gold;
+  table-layout: fixed;
+  display: inline-table;
+  width: 100%;
+}
+td {
+  border-radius: 5px 20px 5px;
+  background-color: yellow;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  height: 55px;
+
+}
+th {
+    background-color: red;
+   border-radius: 5px 20px 5px;
+  transform: rotate(0deg);
+  font-size: 14px;
+  text-align: center;
+}
+td:last-child, th:last-child {
+    background-color: red;
+    border-right: none;
+  transform: rotate(0deg);
+}
+table, table * {
+
+  text-align: right;
+  padding: 5px;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+table tr td:first-child {
+    background-color: red;
+  text-align: left;
+  width: 100px;
+ border-radius: 5px 20px 5px;
+}
+main {
+
+  width: 100%;
+}
+form div {
+
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 2%;
+  display: inline-block;
+}
+fieldset {
+  background-color: yellow;
+  margin: 10px;
+border-radius: 1px 150px 1px 150px;
+}
+legend {
+background-color: red;
+  font-size: 55px;
+border-radius: 1px 150px 1px 150px;
+}
+tr:hover {
+  color: #D97652;
+}
+tfoot {
+  background-color: red;
+}
+input {
+  outline-color: gold;
+  border: 1px solid black;
+  background-color: #F8F8FF;
+}
+button {
+    border: 1px;
+    text-align: center;
+    margin-right: 20px;
+    /*float: left;*/
+    font-weight: bold;
+    width: 150px;
+    font-size: 25px;
+}
+.button {
+  background: gold;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.button:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+}
+
+.button:active {
+    background: #BF7245;
+    border-bottom: 0px;
+    border-right: 0px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.button.clear {
+  display: none;
+  background-color: #4F5059;
+  border-bottom: 5px solid #323238;
+  border-right: 3px solid #323238;
+}
+.button.clear:hover {
+  background-color: #323238;
+  border-bottom: 3px solid #242529;
+  border-right: 2px solid #242529;
+  margin-top: 2px;
+}
+.button.clear:active {
+  background-color: #323238;
+  border-bottom: 0px;
+  border-right: 0px;
+  margin-top: 5px;
+}
+/******
+Homepage Styles
+******/
+.logo {
+  width: 20%;
+  vertical-align: middle;
+}
+header {
+  border-style: solid;
+  border-color: orange;
+  margin: 2% 0%;
+  background-color: gold;
+  margin: 0%;
+  text-align: center;
+  padding: 3%;
+  border-radius: 50px 50px 50px;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+header h1 {
+  color: red;
+  font-size: 60px;
+  display: inline;
+  padding-left: 5%;
+  vertical-align: middle;
+}
+nav {
+  float: right;
+  line-height: 2em;
+}
+nav ul {
+  position: relative;
+  vertical-align: middle;
+  display: inline;
+}
+nav ul li {
+  display: inline;
+  padding: 0 3%;
+  border: none;
+  position: relative;
+  border-right: 1px solid black;
+}
+nav ul li:last-of-type {
+  border: none;
+}
+main {
+  clear: both;
+}
+main h2 {
+  color:yellow;
+  background:orange;
+  border-style: bold;
+  border-color: gold;
+  text-align: center;
+  font-size: 30px;
+  margin: 22px;
+  padding: 1%;
+  border-radius: 50px 50px 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+article {
+  clear: both;
+  margin: 4% 2px;
+}
+.our_mission div, .salmon_amazing div, .our_product div{
+  border-color: limegreen;
+  border-style: dark;
+  border-radius: 90px 10px;
+  margin: 12px;
+  vertical-align: top;
+  padding: 15px;
+
+}
+#about img {
+  background-color: red;
+  width: 50%;
+  border-radius: 360%
+}
+
+#about article:last-of-type img {
+  width: 100px;
+}
+#about article {
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+#about article:first-of-type {
+  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+#locations {
+
+
+  border-color: orange;
+  border-style: solid;
+  background-color: gold;
+
+  margin-bottom: 30px;
+   border-radius: 50px 50px 50px;
+   padding-top: 12px;
+  box-shadow: 10px 10px 5px #888888;
+}
+#locations ul {
+
+   bottom: 1px;
+  padding: 0px;
+  width: 60%;
+}
+.locations_info li {
+
+  font-family: arial;
+  border: none;
+  clear: both;
+
+}
+#locations .locations_info ul {
+  border-color: orange;
+  border-style: bold;
+font-size: 12px;
+  text-align: center;
+  width: 170%;
+  clear: center;
+
+}
+#locations div {
+
+  border-color: green;
+  border-style: bold;
+  background-color: yellow;
+  text-align: left;
+  padding: 15px;
+  border-radius: 50px 9px
+
+}
+#merch div {
+  width: 30%;
+  border: none;
+  margin: center;
+  vertical-align: top;
+}
+#merch .cart .button {
+  width: 20%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888;
+}
+#merch h3 {
+  margin: 1px;
+}
+#merch img {
+  width: 35%;
+  border-radius: 1px 90px
+}
+#merch .cart {
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+footer {
+  background: gold;
+  border-color: orange;
+  border-style: bold;
+  text-align: center;
+  height: 100px;
+  border-radius: 50px 50px;
+  box-shadow: 10px 10px 5px #888888;
+}
+footer .logo {
+  padding-top: 1%;
+}
+footer nav {
+  text-align: center;
+
+
+}
+ß
